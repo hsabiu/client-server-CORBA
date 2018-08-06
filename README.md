@@ -1,7 +1,7 @@
 # Notes
 This is a client-server chat application implemented using Java and CORBA.
 
-# Steps to compile and run the project
+# Compile
 From the project root directory, open the terminal and run the following comands:
   1. mkdir bin
   2. idlj -td src/ -fall MyInterfaces.idl
@@ -10,7 +10,7 @@ From the project root directory, open the terminal and run the following comands
   5. java -cp bin/ CORBAServer -ORBInitialPort 1050 -ORBInitialHost localhost
   6. java -cp bin/ CORBAClient -ORBInitialPort 1050 -ORBInitialHost localhost
 
-# How to run
+# Run
 To test this application, start the CORBAServer and create multiple CORBAClient instances. 
 
 Before a client can connect to the web server, the client has to provide a user name to the server. The server then checks to make sure no any other connected client is using the  same user name. If the user name exist on the server, an error message is displayed asking the user to choose a different name. Otherwise the server register the user to the default 'general' room and inform all the users of this room that a new client is connected.
