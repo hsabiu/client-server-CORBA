@@ -13,7 +13,7 @@ Start the server by running the following command:
 
     java -cp bin/ CORBAServer -ORBInitialPort 1050 -ORBInitialHost localhost
 
-After the server successfully started, create multiple clients using the following command:
+After the server started successfully, create multiple clients using the following command:
 
     java -cp bin/ CORBAClient -ORBInitialPort 1050 -ORBInitialHost localhost
 
