@@ -1,7 +1,7 @@
 # Notes
 * This project is implemented using Java and CORBA
 
-##Steps to compile and run the project
+## Steps to compile and run the project
 From the project root directory, open the terminal and run the following comands:
   1. mkdir bin
   2. idlj -td src/ -fall MyInterfaces.idl
