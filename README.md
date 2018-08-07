@@ -1,7 +1,7 @@
 ## Introduction
 This is a client-server chat application implemented using Java and CORBA.
 
-## Compiling and Testing
+### Compiling and Testing
 From the project root directory, open the terminal and run the following comands:
     
     mkdir bin
