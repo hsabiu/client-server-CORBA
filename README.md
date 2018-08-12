@@ -17,7 +17,7 @@ After the server started successfully, create multiple clients using the followi
 
     java -cp bin/ CORBAClient -ORBInitialPort 1050 -ORBInitialHost localhost
 
-Before a client can connect to the web server, the client has to provide a user name to the server. The server then checks to make sure no any other connected client is using the  same user name. If the user name exist on the server, an error message is displayed asking the user to choose a different name. Otherwise the server register the user to the default 'general' room and inform all the users of this room that a new client is connected.
+Before a client can connect to the web server, the client has to provide a user name to the server. The server then checks to make sure no any other connected client is using the  same user name. If the user name exist on the server, an error message is displayed asking the user to choose a different user name. Otherwise, the server register the user to the default 'general' room and inform all the users connected to this room that a new client is connected. 
 
 Use the created clients to interact with the server by performing various operations such as:
 
